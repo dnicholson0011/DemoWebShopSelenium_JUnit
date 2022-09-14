@@ -47,7 +47,7 @@ public class CheckOut {
         Assertions.assertEquals("https://demowebshop.tricentis.com/", url);
 
         // Take screenshot
-        testMethod.takeSnapShot(driver, "C:\\Users\\d.nicholson\\OneDrive - Accenture\\Desktop\\Test Scripts\\Screens/image.png");
+        testMethod.takeSnapShot(driver, "add directory here");
 
     }
 
@@ -80,7 +80,7 @@ public class CheckOut {
         Assertions.assertEquals(loginConfirmation, actualConfirmation);
 
         // Take screenshot
-        testMethod.takeSnapShot(driver, "C:\\Users\\d.nicholson\\OneDrive - Accenture\\Desktop\\Test Scripts\\Screens/image.png");
+        testMethod.takeSnapShot(driver, "add directory here");
 
     }
 
@@ -160,7 +160,6 @@ public class CheckOut {
         Thread.sleep(1000);
 
         //22. Use Select class to choose armed forces option for shipping address. Note that actions class nor locators worked.
-
         WebElement shippingAddress = driver.findElement(By.xpath("//select[@id='shipping-address-select']"));
 
         Select selectShippingAddress = new Select(shippingAddress);
@@ -193,7 +192,7 @@ public class CheckOut {
         Thread.sleep(1000);
 
         // Take screenshot
-        testMethod.takeSnapShot(driver, "C:\\Users\\d.nicholson\\OneDrive - Accenture\\Desktop\\Test Scripts\\Screens/image.png");
+        testMethod.takeSnapShot(driver, "add directory here");
 
     }
 
