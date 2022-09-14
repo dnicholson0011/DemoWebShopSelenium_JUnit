@@ -30,7 +30,7 @@ public class ShoppingCart {
     @BeforeAll
     public static void setUp() {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\d.nicholson\\OneDrive - Accenture\\Desktop\\Test Scripts\\Selenium WebDrivers\\Chrome Drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "add directory here/chromedriver.exe");
 
     }
 
