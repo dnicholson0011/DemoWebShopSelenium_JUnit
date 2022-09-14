@@ -51,7 +51,7 @@ public class Registration {
         Assertions.assertEquals("https://demowebshop.tricentis.com/", url);
 
         // Take screenshot
-        testMethod.takeSnapShot(driver, "C:\\Users\\d.nicholson\\OneDrive - Accenture\\Desktop\\Test Scripts\\Screens/image.png");
+        testMethod.takeSnapShot(driver, "add directory here");
 
     }
 
@@ -97,7 +97,7 @@ public class Registration {
         Assertions.assertEquals(registerConfirmation,actualConfirmation);
 
         // Take screenshot
-        testMethod.takeSnapShot(driver, "C:\\Users\\d.nicholson\\OneDrive - Accenture\\Desktop\\Test Scripts\\Screens/image.png");
+        testMethod.takeSnapShot(driver, "add directory here");
 
 //        driver.close();
 
