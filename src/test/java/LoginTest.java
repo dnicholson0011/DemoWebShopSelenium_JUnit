@@ -42,7 +42,7 @@ public class LoginTest {
         Assertions.assertEquals("https://demowebshop.tricentis.com/", url);
 
         // Take screenshot
-        testMethod.takeSnapShot(driver, "C:\\Users\\d.nicholson\\OneDrive - Accenture\\Desktop\\Test Scripts\\Screens/image.png");
+        testMethod.takeSnapShot(driver, "add directory here");
 
     }
 
@@ -75,7 +75,7 @@ public class LoginTest {
         Assertions.assertEquals(loginConfirmation, actualConfirmation);
 
         // Take screenshot
-        testMethod.takeSnapShot(driver, "C:\\Users\\d.nicholson\\OneDrive - Accenture\\Desktop\\Test Scripts\\Screens/image.png");
+        testMethod.takeSnapShot(driver, "add directory here");
 
     }
 
